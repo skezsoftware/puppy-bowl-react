@@ -1,42 +1,115 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  background-color: #FAF9F6;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: powderblue;
+  color: black;
+  padding: 10px;
+  font-size: 1.2em;
+  border: 1px solid black;
+}
+
+    /* Landing Page */
+.welcomeMessageContainer {
+  background-color: powderblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  color: black;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+
+    /* Search Bar */
+.searchBarAllPlayers{
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+  font-size: 1.1em;
+  margin-right: 20px;
+  margin: 10px;
+}
+/* Add Puppy Form */
+#form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: black;
+  padding: 10px;
+  font-size: 1.1em;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.submitDogFormButton {
+  background-color:#E6B6B0;
+}
+
+    /* All Players List */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 20px;
+}
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #E6B6B0;
+  width: 350px;
+  border-radius: 8px;
+  background-color: powderblue;
+  padding: 20px;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+  img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 8px;
   }
-  to {
-    transform: rotate(360deg);
+  h1{
+    border: 2px solid black;
+    border-radius: 5px;
   }
 }
+.dogFormButton {
+  background-color: #E6B6B0;
+  font-size: 1em;
+}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+.playerCardButtonsContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.playerCardButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-top: 10px;
+}
+  /* More Info On Dogs Page */
+.moreInfoOnDog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.2em;
+  min-height: 95vh;
+  img{
+    width: 400px;
   }
 }
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
+
+
+
