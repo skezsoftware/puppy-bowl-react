@@ -2,4 +2,4 @@
 
 pup-bowl-reactvite has all the data that you are searching for...
 
-Nelify Link: "coming soon"
+Nelify Link: https://transcendent-pony-2ecaff.netlify.app
